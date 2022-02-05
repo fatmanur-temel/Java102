@@ -4,6 +4,6 @@ public class SubscriberManager {
 
     public void showRemainder(Subscriber subscriber) {
 
-        System.out.println("Bakiyeniz:"+subscriber.remainder);
+        System.out.println("Bakiyeniz:"+subscriber.getRemainder());
     }
 }
